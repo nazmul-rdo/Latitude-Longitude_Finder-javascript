@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latitude and Longitude Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="dese">
+        <h3>Latitude and Longitude Finder</h3>
+        <p>Latitude and Longitude are the units that represent the coordinates at geographic coordinate system. To make a search, use the name of a place, city, state, or address, or click the location on the map to find lat long coordinates.</p>
+    </div>
+    <div class="continer">
+
+        <div class="address-line">
+            <label>Place Name</label><br/>
+            <input id="address" type="text" placeholder="Enter address to search"><br>
+            <button onclick="geocodeAddress()">Find</button>
+            <p>Add the Country code for better results. Ex: Dhaka,Bangladesh</p>
+        </div>
+
+        <div class="location">
+            <!-- <p class="latLon"><span>Laitude: </span></p>
+            <p class="latLon"><span>Longitude: </span></p>
+            <p class="latLon"><span>Country: </span></p> -->
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

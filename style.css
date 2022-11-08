@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.continer {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    background: #def3c5;
+    border: 1px solid #c1d4aa;
+    padding: 30px 0px;
+    line-height: 50px;
+}
+
+input#address {
+    color: inherit;
+    font: inherit;
+    padding: 0.5em;
+    margin: 0 5px 5px 0;
+    border: 1px solid #ccc;
+    display: inline-block;
+    font-size: 100%;
+    line-height: normal;
+    max-width: 100%;
+}
+
+button {
+    overflow: visible;
+    font: inherit;
+    text-transform: none;
+    letter-spacing: 1px;
+    border: 0;
+    line-height: normal;
+    white-space: nowrap;
+    padding: 0.5em;
+    color: #fff;
+    background-color: #0c58a9;
+    display: inline-block;
+    font-size: 100%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.address-line {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.location {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    gap: 20%;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+p.latLon {
+    color: black;
+    background: white;
+    padding: 7px;
+    font-family: sans-serif;
+}
+
+label {
+    font-size: 30px;
+}
+
+.dese {
+    width: 70%;
+    margin: auto;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 23px;
+    padding-bottom: 20px;
+}
